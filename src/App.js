@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
+import { ThemeProvider } from "styled-components";
 import GlobalStyle from "./styles/global";
 import theme from "./styles/theme";
-import {ThemeProvider} from "styled-components";
 import CustomRouter from "./routes/Router";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <GlobalStyle />
       <ThemeProvider theme={theme}>
-        <CustomRouter/>
+        <CustomRouter />
       </ThemeProvider>
     </div>
   );

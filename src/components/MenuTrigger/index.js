@@ -1,7 +1,11 @@
-import React from 'react';
-import * as S from './styles';
-import {Menu} from 'styled-icons/boxicons-regular';
+import React from "react";
+import { Menu } from "styled-icons/boxicons-regular";
+import * as S from "./styles";
 
-export default function MenuTrigger({menuIsOpen,setMenuIsOpen}){
-    return <S.Container menuIsOpen={menuIsOpen}><Menu onClick={()=>setMenuIsOpen(!menuIsOpen)}/></S.Container>
+export default function MenuTrigger({ menuIsOpen, setMenuIsOpen }) {
+  return (
+    <S.Container menuIsOpen={menuIsOpen}>
+      <Menu onClick={() => setMenuIsOpen(!menuIsOpen)} />
+    </S.Container>
+  );
 }

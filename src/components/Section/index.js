@@ -1,11 +1,13 @@
-import React from 'react';
-import * as S from './styles';
+import React from "react";
+import * as S from "./styles";
 
-export default function Section({title,children,...rest}){
-return <S.Container>
-    <S.Title>{title}</S.Title>
-    <S.Content>
+export default function Section({ title, children, center, ...rest }) {
+  return (
+    <S.Container>
+      <S.Content center>
+        {title && <S.Title center>{title}</S.Title>}
         {children}
-    </S.Content>
-</S.Container>
+      </S.Content>
+    </S.Container>
+  );
 }
