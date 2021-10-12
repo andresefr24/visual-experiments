@@ -19,6 +19,38 @@ export const iconsOptions = [
     label: "Starburst",
     value: "starburst",
   },
+  {
+    label: "Google",
+    value: "google",
+  },
+  {
+    label: "ChevronUp",
+    value: "chevronUp",
+  },
+  {
+    label: "Infinite",
+    value: "infinite",
+  },
+  {
+    label: "Toyota",
+    value: "toyota",
+  },
+  {
+    label: "Flutter",
+    value: "flutter",
+  },
+  {
+    label: "Gitlab",
+    value: "gitlab",
+  },
+  {
+    label: "Jquery",
+    value: "jquery",
+  },
+  {
+    label: "Slack",
+    value: "slack",
+  },
 ];
 
 export const numberOfShapesOptions = [
